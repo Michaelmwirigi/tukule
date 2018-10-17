@@ -31,8 +31,7 @@ export default {
 
   methods: {
     handleForm: function() {
-      this.contact
-    },
+    }
   },
 }
 </script>

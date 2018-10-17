@@ -14,6 +14,7 @@ gem 'kaminari'
 gem 'ransack'
 gem 'devise'
 gem 'foreman'
+gem 'semantic-ui-sass'
 
 # COMMENTED OUT: Turbolinks doesn't play well with SPA
 # gem 'turbolinks', '~> 5'

@@ -1,24 +1,6 @@
 <template>
-  <div class='row'>
-    <div class='col-xs-12'>
-      <select class="pull-right" v-model="locale" style="margin-top: 10px;">
-        <option v-for="locale in availableLocales" :value="locale">{{ locale | uppercase }}</option>
-      </select>
-
-      <h1>{{ $t('title') }}</h1>
-
-      <ul class="nav nav-pills">
-        <li :class="activeOn(['root_path'])">
-          <router-link :to="{ name: 'root_path' }">{{ $t('nav.homepage') }}</router-link>
-        </li>
-        <li :class="activeOn(['musicians_path', 'musician_path'])">
-          <router-link :to="{ name: 'musicians_path' }">{{ $t('nav.musicians') }}</router-link>
-        </li>
-        <li :class="activeOn(['errors_path', 'errors_path'])">
-          <router-link :to="{ name: 'errors_path' }">{{ $t('nav.errors') }}</router-link>
-        </li>
-      </ul>
-    </div>
+  <div class='center aligned sixteen wide column'>
+    <h1>Make your order</h1>
   </div>
 </template>
 

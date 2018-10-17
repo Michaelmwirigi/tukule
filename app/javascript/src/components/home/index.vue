@@ -27,7 +27,8 @@ import Payment from './payment';
 export default {
 	data: function() {
     	return {
-    		
+    		locale: window.I18n.locale,
+    		availableLocales: window.I18n.availableLocales,
     		sliderPosition: 0,
     		slides: [
 		        {
@@ -55,5 +56,7 @@ export default {
 	components: {
 		Order, Contact, Payment,
 	},
+		Order, Contact
+	}
 }
 </script>

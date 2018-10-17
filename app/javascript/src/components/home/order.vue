@@ -37,7 +37,7 @@ export default {
       this.total = this.chilli + this.plain
     },
     handleForm: function() {
-      this.contact
+
     },
   },
 }
