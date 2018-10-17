@@ -14,8 +14,6 @@ const router = new VueRouter({
   base: `${I18n.prefix}`,
   routes: [
     { path: '/', component: HomeIndex, name: 'root_path' },
-    { path: '/musicians', component: MusicianIndex, name: 'musicians_path' },
-    { path: '/musicians/:id', component: MusicianShow, name: 'musician_path' },
     { path: '/errors', component: ErrorsIndex, name: 'errors_path' },
     { path: '/500', component: Error500 },
     { path: '/404', component: Error404 },
